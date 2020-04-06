@@ -10,6 +10,12 @@ Redis为了屏蔽不同平台之间的差异及统计内存占用量等，对内
 
 ### memcache和redis的数据淘汰策略
 Redis提供了丰富的淘汰策略，包括maxmemory、maxmemory-policy、volatile-lru、allkeys-lru、volatile-random、allkeys-random、volatile-ttl、noeviction(return error)等。
+voltile-lru 从已经设置过期时间的数据集中挑选最近最少使用的数据淘汰
+voltile-ttl 从已经设置过期时间的数据库集当中挑选将要过期的数据
+voltile-random 从已经设置过期时间的数据集任意选择淘汰数据
+allkeys-lru 从数据集中挑选最近最少使用的数据淘汰
+allkeys-random 从数据集中任意选择淘汰的数据
+no-eviction 禁止驱逐数据
 
 Memecache在容量达到指定值后，就基于LRU（Least Recently Used）算法自动删除不使用的缓存。在某些情况下LRU机制反倒会带来麻烦，会将不期待的数据从内存中清除，在这种情况下启动Memcache时，可以通过“M”参数禁止LRU算法。
 
