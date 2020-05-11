@@ -1,9 +1,8 @@
-Zookeeper分布式锁
----
+# Zookeeper分布式锁
 
 实现分布式锁目前有三种流行方案，分别为基于数据库、Redis、Zookeeper的方案
 
-### 如何使用Zookeeper实现分布式锁？
+## 如何使用Zookeeper实现分布式锁？
 
 在描述算法流程之前，先看下zookeeper中几个关于节点的有趣的性质：
 

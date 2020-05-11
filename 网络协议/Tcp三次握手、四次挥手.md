@@ -1,5 +1,5 @@
-Tcp三次握手和四次挥手
-===
+# Tcp三次握手和四次挥手
+
 ## 前言
 
 TCP 属于传输层协议，是面向有连接，可靠的流协议。面对有连接这个特性，TCP 就有建立连接和断开连接的过程。我们分别了解建立连接和断开连接的流程以及当中的一些疑问。
@@ -8,7 +8,7 @@ TCP 属于传输层协议，是面向有连接，可靠的流协议。面对有�
 
 首先我们来看下这张经典的流程图：
 
-[![img](http://www.52im.net/data/attachment/forum/201708/28/105123g2lejy56ffwyeyef.jpg)](http://www.52im.net/data/attachment/forum/201708/28/105123g2lejy56ffwyeyef.jpg)
+![img](../Images/tcp3.jpg)
 
 握手过程可以简化为下面的四次交互：
 
