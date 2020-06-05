@@ -1,6 +1,16 @@
 # Interview-Best-Practices
 
-Redis单线程模型，aof，rdb，rewrite，主从，cluster，击穿、穿透、雪崩、数据一致性, 一致性hash，布隆过滤器的原理
+Redis单线程模型，
+aof，
+rdb
+主从，
+cluster，
+击穿、
+穿透、
+雪崩、
+数据一致性,
+一致性hash，
+布隆过滤器的原理
 
 
 1. 栈和队列的区别是什么？
