@@ -12,6 +12,6 @@
 此后的请求都会交换这个 Session ID，进行有状态的会话。
 
 ## 推荐课程
-[Redis教程 从原理到实战](https://www.youtube.com/watch?v=F-4TcqelRhg&list=PLmOn9nNkQxJEi-V3CqOaOyTruYhTViQDc)
-[尚硅谷 MySQL高级](https://www.youtube.com/watch?v=8YeoCap08BM&list=PLmOn9nNkQxJFvFTFlYFyIYayiouGYxE2R)
-[Zookeeper：分布式系统入门到实战](https://www.youtube.com/watch?v=BhosKsE8up8&list=RDCMUCrTVwxlwmn2CJINfuaiLB1Q&start_radio=1&t=213)
+* [Redis教程 从原理到实战](https://www.youtube.com/watch?v=F-4TcqelRhg&list=PLmOn9nNkQxJEi-V3CqOaOyTruYhTViQDc)
+* [尚硅谷 MySQL高级](https://www.youtube.com/watch?v=8YeoCap08BM&list=PLmOn9nNkQxJFvFTFlYFyIYayiouGYxE2R)
+* [Zookeeper：分布式系统入门到实战](https://www.youtube.com/watch?v=BhosKsE8up8&list=RDCMUCrTVwxlwmn2CJINfuaiLB1Q&start_radio=1&t=213)
