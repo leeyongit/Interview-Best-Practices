@@ -1,7 +1,9 @@
 # Interview-Notes
 
 ## 常见面试题
-1. session 工作原理?
+
+**1. session 工作原理?**
+
 浏览器第一次请求网站， 服务端生成 Session ID。
 把生成的 Session ID 保存到服务端存储中。
 把生成的 Session ID 返回给浏览器，通过 set-cookie。
