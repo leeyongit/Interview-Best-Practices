@@ -8,7 +8,7 @@ TCP 属于传输层协议，是面向有连接，可靠的流协议。面对有�
 
 首先我们来看下这张经典的流程图：
 
-![img](../Images/tcp3.jpg)
+![img](../resources/network-tcp3.jpg)
 
 握手过程可以简化为下面的四次交互：
 

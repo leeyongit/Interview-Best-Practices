@@ -8,7 +8,7 @@
 - 中间层（sapi）隔绝web server和PHP。
 
 ## PHP体系结构
-![img](../resources/11224747-1d9ed3352b6370bd.png?imageMogr2/auto-orient/strip|imageView2/2/w/470/format/webp)
+![img](../resources/php-structure.png)
 
 PHP体系结构
 
@@ -31,15 +31,15 @@ PHP 生命周期，一切从 SAPI 开始。
 `Zend Engine`：垃圾收集 - 变量释放。
 `MSHUTDOWN`：当 PHP 进程关闭时，与其关联的模块将依次从内存中销毁，即模块关闭。
 
-![img](../resources/11224747-5c1513413b06ef9b.jpg)
+![img](../resources/php-single-life.jpg)
 
 ### 多线程SAPI生命周期
 多线程的 SAPI 生命周期，`MINIT` 和 `MSHUTDOWN` 在进程的存活期内，只需要执行一次。
 
-![img](../resources/11224747-4c03c61e4bcf1ecd.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/693/format/webp)
+![img](../resources/php-multi-life.jpg)
 
 ### 详细图解
-![php生命周期](../resources/11224747-cbcdd660fb0f2a63.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![php生命周期](../resources/php-sapi.png)
 
 ## PHP 生命周期关键词
 

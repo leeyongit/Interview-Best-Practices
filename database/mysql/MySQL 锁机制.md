@@ -29,7 +29,7 @@ where id=#{id} and version=#{version}
 ### 共享锁
 共享锁又称读锁 (read lock)，是读取操作创建的锁。其他用户可以并发读取数据，但任何事务都不能对数据进行修改（获取数据上的排他锁），直到已释放所有共享锁。当如果事务对读锁进行修改操作，很可能会造成死锁。
 
-![img](../../Images/WX20200621-223156.png)
+![img](../../resources/database-mysql-read-lock.png)
 
 如果事务T对数据A加上共享锁后，则其他事务只能对A再加共享锁，不能加排他锁。获得共享锁的事务只能读数据，不能修改数据
 
@@ -49,7 +49,7 @@ where id=#{id} and version=#{version}
 排他锁，也称写锁，独占锁，当前写操作没有完成前，它会阻断其他写锁和读锁。
 
 
-![img](../../Images/WX20200621-231724.png)
+![img](../../resources/database-mysql-exclusive-lock.png)
 
 **排它锁-举例：**
 

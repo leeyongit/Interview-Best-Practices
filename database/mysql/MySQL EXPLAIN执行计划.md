@@ -1,6 +1,6 @@
 # MySQL Explain 使用分析
 
-## EXPLAIN 输出格式
+### EXPLAIN 输出格式
 ```sql
 mysql> explain select * from user_info where id = 2\G
 *************************** 1. row ***************************
