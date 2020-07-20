@@ -40,5 +40,5 @@ TCP是Tranfer Control Protocol的简称，TCP协议是一种面向连接的、�
 * 冒泡排序：思想是相邻元素逐个比较，然后将最大的放在后面。每遍历完一次，就会有一个元素就位，所以时间复杂度为O(n^2)
 * 归并排序：归并排序是利用分治与递归的思想，先将序列分为多个子序列，然后子序列递归排序，并且归并子序列。
 
-## 推荐课程
+## 推荐教程
 * [Zookeeper：分布式系统入门到实战](https://www.youtube.com/watch?v=BhosKsE8up8&list=RDCMUCrTVwxlwmn2CJINfuaiLB1Q&start_radio=1&t=213)
